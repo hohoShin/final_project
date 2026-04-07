@@ -52,3 +52,22 @@ final_project/
   requirements.txt
   .env
 ```
+---
+
+### 가상환경 만들기
+```Terminal
+python -m venv .venv
+```
+
+```Terminal
+# 맥의 경우
+source .venv/bin/activate
+
+# 윈도우의 경우
+.\.venv\Scripts\Activate
+```
+
+
+```
+uvicorn app.main:app --reload
+```
